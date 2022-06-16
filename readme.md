@@ -56,7 +56,7 @@
 
 [Redis基本数据结构](https://www.notion.so/Redis-b10f6c218c7e4e748bf44231e46f1222)
 
-[Redis持久化](https://www.notion.so/Redis-84cfb2be407b4f9e9fa92b36343528d9)
+[Redis持久化](/doc/redis/Redis持久化.md)
 
 [Redis主从复制](https://www.notion.so/Redis-ad1d8bd9f1c8423085888f664f885652)
 
