@@ -23,9 +23,9 @@
 ## 中间件
 
 ### Redis
-- [Redis基本数据类型](/doc/Redis/Redis基本数据类型.md)
-- [Redis数据结构](/doc/Redis/Redis数据结构.md)
-- [Redis缓存](/doc/Redis/缓存.md)
+- [基本数据类型](/doc/Redis/Redis基本数据类型.md)
+- [数据结构](/doc/Redis/Redis数据结构.md)
+- [缓存](/doc/Redis/缓存.md)
 - [分布式锁](/doc/Redis/分布式锁.md)
 - [事务](/doc/Redis/事务.md)
 - [持久化](/doc/Redis/持久化.md)
