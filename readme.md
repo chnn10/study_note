@@ -24,7 +24,7 @@
 
 ### Redis
 
-- [Redis持久化](/doc/redis/Redis持久化.md)
+- [Redis持久化](/doc/Redis/持久化.md)
 
 
 ### Kafka
