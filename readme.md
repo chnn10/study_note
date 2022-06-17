@@ -15,6 +15,10 @@
 - [容器](doc/Java基础/容器.md)
 
 ### Java虚拟机
+- [Java内存区域](/doc/Java虚拟机/Java内存区域.md)
+- [垃圾收集器](/doc/Java虚拟机/垃圾收集器.md)
+- [垃圾收集算法](/doc/Java虚拟机/垃圾收集算法.md)
+- [类加载器](/doc/Java虚拟机/类加载器.md)
 
 ### Java并发
 
