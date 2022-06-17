@@ -33,6 +33,7 @@
 - [哨兵](/doc/Redis/哨兵.md)
 - [集群](/doc/Redis/集群.md)
 - [内存优化](/doc/Redis/内存优化.md)
+- [面试题集](/doc/Redis/面试题集.md)
 
 
 ### Kafka
