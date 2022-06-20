@@ -1,0 +1,51 @@
+public class RocketMQ {
+    /**
+     * 1：消息队列
+     *      为什么使用MQ？优点？常用场景？
+     *      消息队列如何选型?
+     *
+     * 2：RocketMQ基础
+     *      RocketMQ由哪些角色组成，每个角色作用和特点是什么？
+     *      RocketMQ如何保证消息不丢失？
+     *      RocketMQ的消息堆积如何处理？
+     *      堆积的消息会不会进死信队列？
+     *      高吞吐量下如何优化生产者和消费者的性能?
+     *
+     * 3：生成者和消费者
+     *      RocketMQ消息是push还是pull？
+     *      RocketMQ Broker中的消息被消费后会立即删除吗？
+     *      RocketMQ消费模式有几种？
+     *      为什么要主动拉取消息而不使用事件监听方式？
+     *      当消费负载均衡consumer和queue不对等的时候会发生什么？
+     *      消息重复消费如何解决？
+     *      如何让 RocketMQ 保证消息的顺序消费？
+     *      怎么保证消息发到同一个queue？
+     *
+     * 4：集群
+     *      RocketMQ如何做负载均衡？
+     *      RocketMQ 是如何保证数据的高容错性的?
+     *      任何一台Broker突然宕机了怎么办？
+     *      任何一台 Broker 突然宕机了怎么办？还能使用吗？消息会不会丢？
+     *      Master Broker 是如何将消息同步给 Slave Broker 的？
+     *
+     * 5：Broker和NameServer
+     *      Broker如何处理拉取请求的？
+     *      Broker把自己的信息注册到哪个NameServer上？
+     *      RocketMQ如何分布式存储海量消息的？
+     *      系统如何从NameServer获取Broker信息？
+     *      如果Broker宕了，NameServer是怎么感知到的？
+     *
+     *
+     */
+}
+
+
+
+
+
+
+
+
+
+
+
