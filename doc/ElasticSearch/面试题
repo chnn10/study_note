@@ -1,0 +1,79 @@
+package cn.chnn10.testmyself;
+
+public class ElasticSearch {
+    /**
+     * ElasticSearch读取数据
+     * 解释一下X-Pack for ElasticSearch的功能和重要性
+     * 解释一下ElasticSearch集群中的索引的概念
+     * 列出ElasticSearch各种类型的分析器
+     * 谈一谈ElasticSearch Node
+     * 安装ElasticSearch的时候，说明不同软件包和它的的重要性
+     * 部署ElasticSearch时候，对linux的设置有哪些优化方法
+     * 谈一谈ElasticSearch的NRT
+     * ElasticSearch的document设计
+     * 谈一下ElasticSearch 集群
+     * ElasticSearch索引数据多了怎么办，如何调优
+     * GC方面，ElasticSearch需要注意什么
+     * 是否了解字典树
+     * ElasticSearch对大数据的聚合如何实现
+     * ElasticSearch的冷热分离
+     * 描述一下ElasticSearch的搜索过程
+     * 如何在ElasticSearch搜索数据
+     * ElasticSearch的文档是什么
+     * ElasticSearch中的到排序是什么
+     * 介绍你们的个性化搜索方法
+     * 解释一下ElasticSearch的分片
+     * 精准检索和全文检索匹配检索的不同
+     * 解释一下ElasticSearch中的Explore API
+     * 说一下你们公司es的集群架构，索引数据大小，分片有多少，以及调优手段
+     * 你们的集群，一个node会分配几个分片
+     * 什么是ElasticSearch脑裂
+     * 列出ElasticSearch主要可用字段数据类型
+     * ElasticSearch分布式架构原理
+     * logstash如何与ElasticSearch结合使用
+     * 列出与ELK日志分析相关的应用场景
+     * ElasticSearch支持哪些类型的查询
+     * ElasticSearch实际设计
+     * 拼音纠错怎么实现
+     * ElasticSearch如何实现master选举
+     * lucence内部结构是什么
+     * ElasticSearch中的副本
+     * ElasticSearch集群中的Type的概念
+     * ElasticSearch的倒排序是什么
+     * 并发下，ElasticSearch怎么保证读写一致性的
+     * ElasticSearch集群中添加或创建索引的过程
+     * 安装ElasticSearch需要什么组件
+     * 怎么使用Elastic Reporting
+     * ElasticSearch更新和删除文档
+     * 索引中更新mappping的语法
+     * ElasticSearch中按检索文档的语法是什么
+     * ElasticSearch中的Ingest节点如何工作
+     * ElasticSearch中的相关性和得分
+     * ElasticSearch怎么监控集群状态
+     * 定义副本、创建副本的好处
+     * 客户端在和集群连接时候，如何选择特定的节点执行请求
+     * 分步介绍如何启动ElasticSearch服务器的
+     * ElasticSearch中常用的cat命令有哪些
+     * ElasticSearch数据预热
+     * 如何使用ElasticSearch tokenizer
+     * ElasticSearch数据写入原理
+     * 怎么做ElasticSearch写入调优
+     * ElasticSearch主分片数量可以在后期更改吗？为什么
+     * 能否在ElasticSearch中定义映射
+     * ElasticSearch列出集群的所有索引的语法
+     * ElasticSearch的filesyatem
+     * ElasticSearch Anlyzer中的字符过滤器如何使用
+     * Token filter过滤器在ElasticSearch如何工作的
+     * 迁移Migration API如何用作ElasticSearch
+     * ELK Stack及其内容
+     * ElasticSearch中的分析器是什么
+     * ElasticSearch的数据存储功能
+     * Master节点和候选Master节点有什么不同
+     * ElasticSearch更新数据的执行流程
+     * REST API在ElasticSearch方面有哪些优势
+     * 什么是ElasticSearch索引
+     * ElasticSearch支持哪些配置管理工具
+     * 详细描述不一下ElasticSearch搜索的过程
+     * ElasticSearch中的属性enable、index和store的功能
+     */
+}
