@@ -88,7 +88,7 @@
 ## 外包仔历险记
 
 - 被面试官吊打系列之Redis
-  -[Redis基础](/doc/Redis/面试之Redis基础.md)
+  - [Redis基础](/doc/Redis/面试之Redis基础.md)
   - [Redis缓存与内存优化](/doc/Redis/面试之Redis缓存与内存优化.md)
   - [Redis高可用](/doc/Redis/面试之Redis高可用.md)
   - [Redis事务与发布订阅](/doc/Redis/面试之Redis事务与发布订阅.md)
