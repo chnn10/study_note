@@ -88,11 +88,11 @@
 ## 外包仔历险记
 
 - 被面试官吊打系列之Java并发
-  - [被面试官吊打之线程基础](/doc/Java并发/面试之线程基础.md)
-  - [被面试官吊打之并发基础](/doc/Java并发/面试之并发基础.md)
-  - [被面试官吊打之内存模型](/doc/Java并发/面试之内存模型.md)
-  - [被面试官吊打之线程池](/doc/Java并发/面试之线程池.md)
-  - [被面试官吊打之JUC](/doc/Java并发/面试之JUC.md)
+  - [线程基础](/doc/Java并发/面试之线程基础.md)
+  - [并发基础](/doc/Java并发/面试之并发基础.md)
+  - [内存模型](/doc/Java并发/面试之内存模型.md)
+  - [线程池](/doc/Java并发/面试之线程池.md)
+  - [JUC](/doc/Java并发/面试之JUC.md)
 - 被面试官吊打系列之Redis
   - [Redis基础](/doc/Redis/面试之Redis基础.md)
   - [Redis缓存与内存优化](/doc/Redis/面试之Redis缓存与内存优化.md)
