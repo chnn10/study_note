@@ -62,6 +62,7 @@
 ### Kafka
 
 ### RocketMQ
+- [NameServer源码](/doc/RocketMQ/NameServer源码阅读.md)
 
 ### ElasticSearch
 
