@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * 分批的处理
+ * 分批的处理-------------> 需要进行优化
  * 一个list进去，返回一个map，这个list超过了100，需要进行分批处理
  */
 public class Demo5EveryBatchTest {
