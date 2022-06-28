@@ -111,19 +111,19 @@
 - 被面试官吊打系列之MySQL
 
 - 学习代办
-小刘的源码视频
-	0：JavaSE
-	1：JUC
-	2：Spring
-	3：Netty
-	4：RocketMQ
-	5：ElasticSearch
+  - 小刘的源码视频
+  - 0：JavaSE
+  - 1：JUC
+  - 2：Spring
+  - 3：Netty
+  - 4：RocketMQ
+  - 5：ElasticSearch
 	
-书籍学习
-	1：Redis：《Redis设计与实现》、《Redis源码分析》
-	2：MySQL：《从跟理解MySQL是怎么运行的》
-	3：JVM：《深入理解Java虚拟机》
-	4：计算机基础：《深入理解计算机系统》
-	5：LeetCode：LeetCode网站
+- 书籍学习
+  - 1：Redis：《Redis设计与实现》、《Redis源码分析》
+  - 2：MySQL：《从跟理解MySQL是怎么运行的》
+  - 3：JVM：《深入理解Java虚拟机》
+  - 4：计算机基础：《深入理解计算机系统》
+  - 5：LeetCode：LeetCode网站
 
 
