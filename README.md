@@ -110,14 +110,14 @@
 - 被面试官吊打系列之ElasticSearch
 - 被面试官吊打系列之MySQL
 
-- 学习代办
-  - 小刘的源码视频
-  - 0：JavaSE
-  - 1：JUC
-  - 2：Spring
-  - 3：Netty
-  - 4：RocketMQ
-  - 5：ElasticSearch
+## 学习代办
+- 小刘的源码视频
+	- 0：JavaSE
+	- 1：JUC
+	- 2：Spring
+	- 3：Netty
+	- 4：RocketMQ
+	- 5：ElasticSearch
 	
 - 书籍学习
   - 1：Redis：《Redis设计与实现》、《Redis源码分析》
