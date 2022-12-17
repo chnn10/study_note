@@ -1,0 +1,97 @@
+五：链表的索引
+1：算法描述
+	给定一个链表的节点head，和给定一个索引值index，根据这个索引值获取节点。
+	
+2：代码
+ListNode *list_get_node(ListNode *head, int index) {
+	ListNode *temp = head;
+	for(int i = 0; i < index; i++) {
+		temp = temp -> next;
+	}
+	if(!temp) {
+		return NULL;
+	}
+	return temp;
+}
+
+
+
+六：链表元素的查找
+1：算法描述	
+	给定一个链表head，和一个值，查找这个链表第一个等于这个值的节点。
+
+2：代码
+ListNode *get_node_by_value(ListNode *head, int value) {
+	ListNode *temp = head;
+	while(temp) {
+		if(temp -> data == value) {
+			return temp;
+		}
+		temp = temp -> next;
+	}
+	return NULL:
+}
+
+
+七：链表插入
+1：算法描述
+	给定一个链表头，并且给定一个位置index，和一个value，生成一个节点，在这个位置插入节点。
+	
+2：思路
+	0：我们找到第i个位置，就在第i和第i+1之间插入这个节点。
+	1：找到第i位置的前驱节点
+	2：使用next记录第i个位置的节点（next）
+	3：在前驱pre和后继next之间插入节点
+	
+3：代码
+ListNode *insert_node(ListNode *head, int index, int value) {
+	ListNode *pre, *cur, *next;
+	pre = cur = head;
+	for(int i = 0; i < index - 1; i++) {
+		pre = pre -> next;
+	}
+	
+	next = pre -> next;
+	cur = create_node(value);
+	cur -> next = next;
+	pre -> next = cur;
+	return cur;
+}
+
+
+八：链表删除
+1：算法描述
+	给定一个链表head，并且给定一个位置index，删除index位置的节点，并且返回这个节点。
+	
+2：思路
+	0：空链表，直接返回
+	1：缓存头节点的后继节点，删除头节点，然后缓存返回后继节点。
+	2：找到第i个位置的前驱节点，记录后继节点。
+	
+3：代码
+ListNo *dedelete_node_by_index(ListNode *head, int index) {
+	ListNode *pre, *del, *next;
+	
+	if(index == 0) {
+		next = head -> next;
+		free(head);
+		return next;  // 此时next变成了头节点
+	}
+	
+	pre = cur = head;
+	for(int i = 0; i < index - 1; i++) {
+		pre = pre -> next;
+	}
+	
+	del = pre -> next;
+	next = pre -> next -> next;
+	pre -> next = next -> next;
+	free(del);
+	
+	return head;
+}
+
+
+
+
+
