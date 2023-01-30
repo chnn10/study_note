@@ -1,0 +1,36 @@
+int removeElement(int* nums, int numsSize, int val){
+    // 使用快慢指针
+    
+    // 快指针往前进行遍历，如果当前的值不等于val，将这个值赋值给慢指针的位置; ---> 如果是val，慢指针就不动，快指针继续往下走
+    
+    int slow = 0;
+    int fast = 0;
+    
+    while(fast < numsSize) {
+        if(nums[fast] != val) {
+            nums[slow] = nums[fast];
+            slow++;
+        }
+        fast++;
+    }
+     
+    
+    return slow;
+}
+
+
+
+
+
+
+/**
+26.删除排序数组中的重复项
+283.移动零
+844.比较含退格的字符串
+977.有序数组的平方
+*/
+
+
+
+
+
