@@ -1,0 +1,28 @@
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     struct ListNode *next;
+ * };
+ */
+
+
+struct ListNode* reverseList(struct ListNode* head){
+    struct ListNode* temp;
+    struct ListNode* pre = NULL;
+    struct ListNode* cur = head;
+    
+    while(cur) {
+        temp = cur->next;        //保存next节点
+        cur->next = pre;         //此时，将当前节点的next指向pre，相当于进行了反转
+        pre = cur;               //pre节点往后面移动
+        cur = temp;              //cur节点玩下一个节点移动
+    }
+    
+    return pre;                  // 最后返回的是pre，因为此时pre就是最后一个节点了
+}
+
+
+
+
+
