@@ -1,1 +1,25 @@
-lhello
+public class LeetCode9 {
+    /**
+     * 给你一个整数 x ，如果 x 是一个回文整数，返回 true ；否则，返回 false 。
+     *
+     * 回文数
+     * 回文数
+     * 如果一个整数向前和向后读都相同，则它是一个 回文数。 例如，121 是回文数，而 123 不是。
+     * @param x
+     * @return
+     */
+    public boolean isPalindrome(int x) {
+        // x 小于0 ，或者是个位数一定不是回文数
+        if (x < 0) {
+            return false;
+        }
+
+        int reverseX = 0;
+        int temp = x;
+        while (x != 0) {
+            reverseX = reverseX * 10 + x % 10;
+            x = x / 10;
+        }
+        return reverseX == temp;
+    }
+}
