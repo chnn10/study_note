@@ -4,6 +4,9 @@
     谈谈线程的状态
     谈谈wait和sleep的区别
     谈谈runnable和callable的区别
+    谈谈JMM和volatile的理解
+    谈谈你对synchronized的理解
+    谈谈synchronized的锁升级
 
 
 
@@ -41,25 +44,6 @@
     wait是Object类的一个方法，wait一般都是和synchronized和notify一起使用的，要执行wait方法的线程必须要获取到锁。
     当线程执行了wait之后，就会处于阻塞的状态，并且释放锁，它会一直阻塞住，直到有其他线程调用了这个对象的notify方法将它唤醒，它要重新获取到锁才可以执行。
     sleep是Thread类的一个静态方法，当一个线程调用了sleep方法之后，就会处于休眠的状态，当休眠的时间过之后，线程就可以恢复执行，在休眠的期间线程是不会释放锁的。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 谈谈JMM和volatile的理解
