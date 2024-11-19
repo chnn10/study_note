@@ -4,7 +4,7 @@
     谈谈线程的状态
     谈谈wait和sleep的区别
     谈谈runnable和callable的区别
-    谈谈JMM和volatile的理解
+    谈谈JMM和volatile的理解   ---> 未完成
     谈谈你对synchronized的理解
     谈谈synchronized的锁升级的理解
     谈谈你对CAS的理解
