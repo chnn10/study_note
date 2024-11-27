@@ -10,3 +10,13 @@ https://2012labs.huawei.com/#/about/us
 账号	zwx1379829
 手机	+86 19125617006 (修改回呼)
 +86 17374130891 (主号)
+
+
+### 2024年11月27日-周三 ###
+	三十
+		MySQL - 如何定位慢查询/分析慢SQL/索引概述和底层原理 ---> done
+		MySQL -  聚合索引回表/索引覆盖/索引创建原则 ---> done
+		MySQL - 索引失效/索引优化/事务
+		MySQL - 事务隔离级别/undo log合redo log
+		MySQL - MVCC
+
